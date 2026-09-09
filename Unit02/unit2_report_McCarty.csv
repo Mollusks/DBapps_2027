@@ -1,0 +1,6 @@
+--I found this interesting, as to me to it is interesting they are missing this data
+SELECT name
+FROM people
+WHERE birth_year IS NULL
+GROUP BY name
+LIMIT 10;
